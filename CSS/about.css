@@ -1,0 +1,170 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: white;
+}
+
+.heading {
+    background-color: #071d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:  relative fixed;
+    padding: 10px 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    position: sticky;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.head {
+    display: flex;
+    list-style: none;
+    position: sticky;
+    font-size: 30px;
+    right: 40px;
+    color: white;
+}
+
+span {
+    color: #ff7a2f;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.gallery {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.middle {
+   background-color: #ff7a2f;
+   border: none;
+   color: white;
+   padding: 10px 30px;
+   margin-top: -10px;
+   text-align: center;
+   border-radius: 30px;
+   font-size: 15px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text {
+    text-align: center;
+    color: #071d2d;
+    padding: 0 30px;
+    font-weight: bold;
+}
+
+.card {
+    position: relative;
+    z-index: 5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 70%;
+    margin: -4px auto 70px;
+    text-align: left;
+}
+
+.card-links img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+
+.card-links h3 {
+    font-size: 27px;
+    margin-bottom: -15px;
+}
+
+.card-links p {
+    color: black;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.task {
+    position: relative;
+    z-index: 5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 70%;
+    margin: -4px auto 70px;
+    text-align: left;
+    left: 12%;
+}
+
+.task-links img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    justify-content: center;
+}
+
+.task-links h3 {
+    font-size: 27px;
+    margin-bottom: -15px;
+}
+
+.task-links p {
+    color: black;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.down {
+    background: #1596a5;
+    padding: 20px 70px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #071d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position:  relative fixed;
+    padding: 0 10px;
+}
+
+.footer-link {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    position: sticky;
+    font-size: 15px;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+}
