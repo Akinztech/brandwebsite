@@ -1,0 +1,144 @@
+|*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:
+    linear-gradient(to bottom,rgba(7, 29, 45, 0) 50%, rgba(7,29, 60, 0.5) 75%, #043049 100%),
+    url(team.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.nav-bar {
+    background-color: #071d2d;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.home{
+    text-decoration-color: #FF7A2F;
+}
+.nav-links {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    margin-top: 0;
+    position: sticky;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    text-align: right;   
+    font-size: 16px;
+    font-weight: 600;
+    padding:28px 0;
+}
+.tittle {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+span {
+    color: #FF7A2F;
+}
+button {
+    padding: 10px;
+    color: white;
+    background-color:  rgba(255, 68, 0, 0.856);
+    border-radius: 25px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: transparent;
+    cursor: pointer;
+}
+.hero {
+    position: relative;
+    padding:600px;
+    border-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: left;
+}
+.hero-content {
+    position: absolute;
+    justify-content: left;
+    width: 650px;
+    left: 5%;
+}
+h1{
+    color: rgba(255, 68, 0, 0.856);
+    font-size: 52px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.08;
+}
+p{
+    font-size: 10px;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 24px;
+    max-width: 560px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 2;
+}
+.shape-one{
+    width: 250px;
+    height: 250px;
+    left: -100px;
+    bottom: -350px;
+    border: 35px solid #1596a5;
+}
+.shape-two{
+    width: 240px;
+    height: 240px;
+
+    right: -50px;
+    bottom: -350px;
+
+    border: 30px solid #f47b3a ;
+}
+.shape-three{
+    width: 200px;
+    height: 200px;
+
+    right: -70px;
+    bottom: -320px;
+
+    border: 28px solid teal;
+}
+.footer{
+    background-color: #071d2d;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.footer-socials a {
+    text-decoration: none;
+    color: white;
+    text-align: right;   
+    font-size: 25px;
+    font-weight: 600;
+    padding:28px 0;
+}
+.footer-socials {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-top: 0;
+    position: sticky;
+}
