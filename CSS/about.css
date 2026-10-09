@@ -1,7 +1,3 @@
-* {
-    font-family: 'Times New Roman', Times, serif;
-}
-
 body {
     background-color: white;
 }
@@ -167,4 +163,119 @@ span {
 .footer-link a {
     color: white;
     text-decoration: none;
+}
+
+.about-main .text {
+    width: min(1100px, calc(100% - 48px));
+    margin: 42px auto 28px;
+    padding: 0;
+}
+
+.about-main .text h2 {
+    margin-bottom: 12px;
+    font-size: 34px;
+}
+
+.about-main .text p {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0;
+    color: #43505a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.about-main .card,
+.about-main .task {
+    position: relative;
+    left: auto;
+    z-index: 1;
+    display: grid;
+    width: min(1100px, calc(100% - 48px));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px;
+    margin: 32px auto;
+    text-align: left;
+}
+
+.about-main .task {
+    max-width: 710px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.about-main .card-links img,
+.about-main .task-links img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 0 16px;
+}
+
+.about-main .card-links h3,
+.about-main .task-links h3 {
+    margin: 0 0 6px;
+    color: var(--ink);
+    font-size: 22px;
+}
+
+.about-main .card-links p,
+.about-main .task-links p {
+    margin: 0 0 8px;
+    padding: 0;
+    color: #43505a;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.about-main .down {
+    margin-top: 44px;
+    padding: 24px;
+}
+
+@media (max-width: 760px) {
+    .about-main .card {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 22px;
+    }
+}
+
+@media (max-width: 520px) {
+    .about-main .text {
+        margin-top: 32px;
+    }
+
+    .about-main .text h2 {
+        font-size: 28px;
+    }
+
+    .about-main .text br,
+    .about-main .card-links br,
+    .about-main .task-links br,
+    .about-main .down br {
+        display: none;
+    }
+
+    .about-main .card,
+    .about-main .task {
+        width: calc(100% - 36px);
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
+        margin: 26px auto;
+    }
+
+    .about-main .card-links img,
+    .about-main .task-links img {
+        aspect-ratio: 16 / 10;
+    }
+
+    .about-main .down {
+        margin-top: 32px;
+        padding: 22px 18px;
+        font-size: 20px;
+    }
 }
