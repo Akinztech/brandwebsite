@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <meta name="theme-color" content="#071d2d">
+    <title>About | Synergy 5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/about.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-<body>
-    <nav class="heading">
-        <ul class="head">
-            <li>SYNERGY <span>5</span></li>
-        </ul>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" aria-current="page">About</a></li>
-            <li><a href="solutions.html">Solutions</a></li>
-            <li><a class="middle" href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
-        </ul>
-    </nav>
+<body class="content-page about-page">
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Synergy 5 home">SYNERGY <span>5</span></a>
+        <nav class="primary-nav" aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main class="content-main about-main">
     <div class="text">
         <h2>MEET THE TEAM</h2>
         <p>Our story started with a shared vision. Learn about the <br> five passionate individuals behind SYNERGY 5.</p>
@@ -28,19 +34,19 @@
 
     <section class="card">
         <div class="card-links">
-            <img src="i.jpg" alt="david">
+            <img src="IMAGES/i.jpg" alt="Alex, lead developer">
             <h3>Alex</h3>
             <p> (Lead Developer) </p>
             <p>He is our lead developer with over 10 years of <br> experience in software engineering at SYNERGY 5.</p>
         </div>
         <div class="card-links">
-            <img src="x.jpg" alt="david">
+            <img src="IMAGES/x.jpg" alt="Sarah, project manager">
             <h3>Sarah</h3>
             <p> (Project Manager) </p>
             <p>She is our project manager with over 8 years of <br> experience in project managing at SYNERGY 5.</p>
         </div>
         <div class="card-links">
-            <img src="n.jpg" alt="david">
+            <img src="IMAGES/n.jpg" alt="Ben, UX designer">
             <h3>Ben</h3>
             <p> (UX Designer ) </p>
             <p>He is our UX Designer with over 5 years of <br> experience in designing at SYNERGY 5.</p>
@@ -49,13 +55,13 @@
 
     <section class="task">
         <div class="task-links">
-            <img src="d.jpg" alt="david">
+            <img src="IMAGES/d.jpg" alt="Chloe, marketing specialist">
             <h3>Chloe</h3>
             <p> (Marketing Specialist) </p>
             <p>She is our Marketing Specialist with over 7 years of <br> experience in marketing at SYNERGY 5.</p>
         </div>
         <div class="task-links">
-            <img src="e.jpg" alt="david">
+            <img src="IMAGES/e.jpg" alt="David, data analyst">
             <h3>David</h3>
             <p> (Data Analyst) </p>
             <p>He is our Data Analyser with over 4 years of <br> experience in analyzing at SYNERGY 5.</p>
@@ -65,22 +71,15 @@
     <div class="down">
         <h3>To empower communities through <br> collaborative innovation.</h3>
     </div>
+    </main>
 
-    <nav class="footer">
-            <ul class="footer-link">
-                <li>SYNERGY <span>5</span></li>
-            </ul>
-            <ul class="nav-links">
-                <li><a href="https://linkedin.com">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a></li>
-                <li><a href="http://twitter.com">
-                    <i class="fa-brands fa-twitter"></i>
-                </a></li>
-                <li><a href="http://instagram.com">
-                    <i class="fa-brands fa-instagram"></i>
-                </a></li>
-            </ul>
-    </nav>
+    <footer class="site-footer">
+        <a class="footer-brand" href="index.html">SYNERGY <span>5</span></a>
+        <nav class="social-links" aria-label="Social media">
+            <a href="https://linkedin.com" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="https://twitter.com" aria-label="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://instagram.com" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        </nav>
+    </footer>
 </body>
 </html>
