@@ -3,50 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="theme-color" content="#071d2d">
+    <title>Synergy 5 | Innovating Together</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <header>
-         <nav class="nav-bar">
-        <nav class="tittle">SYNERGY <span>5</span></nav>
-            <nav class="nav-links">
-               <li class="home"><a href="index.html">Home</a></li>
-               <li class="active"><a href="about.html">About</a></li>
-               <li><a href="solution.html">Solutions</a></li>
-               <li><a href="contact.html">Contact</a></li>
-               <li><a href="blog.html">Blog</a></li>
-            </nav>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Synergy 5 home">SYNERGY <span>5</span></a>
+        <nav class="primary-nav" aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
         </nav>
     </header>
-    <div class="hero">
-        <div hero-content>
-          <h1>SYNERGY 5: <br>Innovating Together</h1>
-          <p>We are a collaborative team building the future <br>of digital solutions.Join our journey</p>
-          <button> GET STARTED </button>
-        </div>
-    </div>
-    <div class="shape shape-one"></div>
-    <div class="shape shape-two"></div>
-    <div class="shape shape-three"></div>
-    <section>
-        <div class="footer">
-        <div class="tittle">SYNERGY <span>5</span></div>
-        <div class="footer-socials">
-            <li><a href="https://linkedin.com"> 
-                <i class="fab fa-linkedin-in"></i>
-            </a><li>
-           <li> <a href="https://twitter.com">
-                <i class="fab fa-twitter"></i>
-            </a><li>
-            <li><a href="https://instagram.com">
-                <i class="fab fa-instagram"></i>
-            </a><li>
-        </div>
-    </div>
-</section>
-    
 
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <img class="hero-image" src="team.png" alt="The Synergy 5 team working together" fetchpriority="high">
+            <div class="hero-content">
+                <p class="hero-kicker">One team. Shared momentum.</p>
+                <h1 id="hero-title">SYNERGY 5:<br><span>Innovating Together</span></h1>
+                <p class="hero-copy">We are a collaborative team building the future of digital solutions. Join our journey.</p>
+                <a class="hero-cta" href="solutions.html">Get started <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="hero-orbit" aria-hidden="true"></div>
+            <footer class="hero-footer">
+                <a class="footer-brand" href="index.html">SYNERGY <span>5</span></a>
+                <nav class="social-links" aria-label="Social media">
+                    <a href="https://linkedin.com" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com" aria-label="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                </nav>
+            </footer>
+        </section>
+    </main>
 </body>
 </html>
